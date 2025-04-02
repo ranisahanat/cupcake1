@@ -1,0 +1,150 @@
+
+.logo-font {
+    font-family: 'Great Vibes', cursive;
+}
+
+header .container .flex.items-center.space-x-8 a {
+    color: #fff; 
+}
+
+
+header .container .flex.items-center.space-x-8 a:hover {
+  
+}
+
+
+nav .hidden.md\:block a {
+    border: 2px solid #facc15; 
+    color: #facc15;          
+    padding: 0.75rem 1.5rem;   
+    font-size: 1rem;      
+    font-weight: 600;       
+}
+
+nav .hidden.md\:block a:hover {
+    background-color: #facc15; 
+    color: #000;          
+}
+
+
+nav .container .flex.items-center.space-x-4 a {
+    color: #fff; 
+}
+
+nav .container .flex.items-center.space-x-4 a:hover {
+    background-color: #facc15; 
+}
+
+
+section.relative img {
+    width: 100%;       
+    height: auto;      
+    object-fit: cover; 
+}
+
+
+section.relative .absolute a {
+    margin-top: 2rem;       
+    background-color: #facc15;  
+    color: #000;            
+    padding: 0.75rem 1.5rem;    
+    font-size: 1rem;        
+    font-weight: 600;      
+}
+
+section.relative .absolute a:hover {
+    background-color: #f59e0b; 
+}
+
+
+.container.mx-auto.px-4.py-16 h1 {
+    font-size: 2.25rem;   
+}
+
+@media (min-width: 768px) {
+    .container.mx-auto.px-4.py-16 h1 {
+        font-size: 3.75rem; 
+    }
+}
+
+.container.mx-auto.px-4.py-16 .border-b-2 {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #facc15; 
+    width: 4rem;         
+    margin-left: auto;      
+    margin-right: auto;   
+    margin-top: 2rem;      
+    margin-bottom: 2rem;   
+}
+
+@media (min-width: 768px) {
+    .container.mx-auto.px-4.py-16 .md\:flex {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;        
+    }
+}
+
+.container.mx-auto.px-4.py-16 .md\:flex > div {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .container.mx-auto.px-4.py-16 .md\:flex > div {
+        width: 50%;     
+    }
+}
+
+.container.mx-auto.px-4.py-16 .md\:flex h2 {
+    font-size: 1.25rem;   
+    color: #facc15;     
+    margin-bottom: 1rem;    
+}
+
+@media (min-width: 768px) {
+    .container.mx-auto.px-4.py-16 .md\:flex h2 {
+        font-size: 1.5rem;  
+    }
+}
+
+.container.mx-auto.px-4.py-16 .md\:flex p {
+    color: #a0aec0;     
+    margin-bottom: 1rem;    
+}
+
+.container.mx-auto.px-4.py-16 .md\:flex .mt-8 {
+    margin-top: 2rem;      
+}
+
+@media (min-width: 768px) {
+    .container.mx-auto.px-4.py-16 .md\:flex .mt-8 {
+        margin-top: 0;     
+    }
+}
+
+.container.mx-auto.px-4.py-16 .md\:flex img {
+    border-radius: 0.5rem;  
+    height: auto;
+    max-width: 100%;
+}
+
+nav .container ul.flex {
+    display: flex;
+    gap: 3rem;       
+    color: #fff;         
+    margin-top: 4rem;    
+}
+
+nav .container ul.flex li {
+    list-style: none;
+}
+
+nav .container ul.flex li a {
+    color: #fff;         
+    text-decoration: none;
+}
+
+nav .container ul.flex li:hover a{
+    color: #facc15;    
+}

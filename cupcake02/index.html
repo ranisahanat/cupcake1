@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .logo-font {
+            font-family: 'Great Vibes', cursive;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .hover-zoom:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s ease-in-out;
+        }
+  
+
+    </style>
+</head>
+<body class="bg-black text-white">
+    <header class="bg-gray-800">
+        <div class="container mx-auto flex justify-between items-center py-4 px-6">
+            <div class="flex items-center">
+                <span class="text-white text-lg font-bold">colorlib.</span>
+                <span class="text-gray-400 ml-2">+ CAKESHOP</span>
+            </div>
+            <div class="flex items-center space-x-8">
+                <a href="#" class="text-white"><i class="fas fa-desktop"></i></a>
+                <a href="#" class="text-white"><i class="fas fa-tablet-alt"></i></a>
+                <a href="#" class="text-white"><i class="fas fa-mobile-alt"></i></a>
+                <a href="#" class="text-white"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#" class="text-white"><i class="fas fa-times"></i></a>
+            </div>
+        </div>
+    </header>
+    <nav class="bg-black">
+        <div class="container mx-auto flex flex-col items-center py-4 px-6">
+            <div class="flex items-center justify-center w-full relative">
+                <div class="text-5xl md:text-6xl lg:text-7xl text-yellow-500 logo-font text-center absolute left-1/2 transform -translate-x-1/2 top-6">Cake Shop</div>
+                <div class="hidden md:block ml-auto">
+                    <a href="tel:+107833464378" class="border border-yellow-500 text-yellow-500 px-6 py-3 text-lg font-semibold hover:bg-yellow-600">Call Us: +10 783 346 4378</a>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4 mt-4 self-start ">
+                <a href="#" class="text-white hover:bg-yellow-600"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white hover:bg-yellow-600"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white hover:bg-yellow-600"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="mt-8"></div> <ul class="flex space-x-12 text-white mt-16">
+                <li class="hover:text-yellow-500"><a href="#">HOME</a></li>
+                <li class="hover:text-yellow-500"><a href="#">CAKES</a></li>
+                <li class="hover:text-yellow-500"><a href="#">ABOUT</a></li>
+                <li class="hover:text-yellow-500"><a href="#">BLOG</a></li>
+                <li class="hover:text-yellow-500"><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="relative">
+        <img src="img/bgcupcake.jpg" alt="Close-up of delicious chocolate cupcakes with cherries on top" class="w-full h-auto" width="1920" height="1080">
+        <div class="absolute inset-0 flex flex-col justify-center items-start p-6 md:p-12 lg:p-24">
+            <h1 class="text-5xl md:text-6xl lg:text-7xl font-light">Healthy Made</h1>
+            <h2 class="text-5xl md:text-6xl lg:text-7xl font-light">Delicious Cake</h2>
+            <a href="#" class="mt-8 bg-yellow-500 text-black px-6 py-3 text-lg font-semibold hover:bg-yellow-600">ORDER NOW</a>
+        </div>
+    </section>
+    <div class="container mx-auto px-4 py-16">
+        <h1 class="text-4xl md:text-6xl font-light text-center">
+            This is Schilers. Awesome Food Theme.
+            <br/>
+            Purchase it and eat Burgers.
+        </h1>
+        <div class="border-b-2 border-yellow-500 w-16 mx-auto my-8">
+        </div>
+        <div class="md:flex md:space-x-8">
+            <div class="md:w-1/2">
+                <h2 class="text-xl md:text-2xl text-yellow-500 mb-4">
+                    This is Schilers. Awesome Food Theme.
+                    <br/>
+                    Purchase it and eat Burgers.
+                </h2>
+                <p class="text-gray-400 mb-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
+                <p class="text-gray-400">
+                    Consectetur adipiscing elit, sed do eiusmod tempor dunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercita tion ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute dolor in reprehenderit in voluptate velit esse cillum.
+                </p>
+            </div>
+            <div class="md:w-1/2 mt-8 md:mt-0">
+                <img alt="A beautifully decorated cake with intricate icing patterns" class="rounded-lg" height="400" src="img/about1.jpg" width="600"/>
+            </div>
+        </div>
+    </div>
+    <main class="p-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+         <div class="text-center">
+          <img alt="A cake being decorated with white and chocolate frosting" class="mx-auto hover-zoom" height="400" src="img/items1.jpg" width="400"/>
+          <h2 class="mt-4 text-lg">
+           Delightful Lemon
+          </h2>
+          <p class="text-yellow-500">
+           $98.00
+          </p>
+         </div>
+         <div class="text-center">
+          <img alt="A stack of pancakes with berries on top" class="mx-auto hover-zoom" height="400" src="img/items2.jpg" width="400"/>
+          <h2 class="mt-4 text-lg">
+           Sweet Surprise
+          </h2>
+          <p class="text-yellow-500">
+           $98.00
+          </p>
+         </div>
+         <div class="text-center">
+          <img alt="A cake being decorated with white and chocolate frosting" class="mx-auto hover-zoom" height="400" src="img/items3.jpg" width="400"/>
+          <h2 class="mt-4 text-lg">
+           Cashmere Tank + Bag
+          </h2>
+          <p class="text-yellow-500">
+           $98.00
+          </p>
+         </div>
+        </div>
+       </main>
+       <footer class="fixed bottom-4 right-4">
+        <button class="bg-yellow-500 text-gray-900 p-2 rounded-full">
+         <i class="fas fa-arrow-up">
+         </i>
+        </button>
+       </footer>
+     
+</body>
+</html>
